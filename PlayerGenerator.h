@@ -8,7 +8,7 @@
 
 class PlayerGenerator : public QVariant
 {
-    Q_OBJECT
+    Q_GADGET
 
     Q_PROPERTY(int getReturnTypeId READ getReturnTypeId WRITE setReturnTypeId NOTIFY getReturnTypeIdChanged)
     Q_PROPERTY(bool isActivated READ getActivated WRITE setActivated NOTIFY isActivatedChanged)
